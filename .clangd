@@ -13,3 +13,5 @@ CompileFlags:
     - -ftrivial-auto-var-init=*
   Add:
     - -ferror-limit=0
+    - -include
+    - /home/aayush/Documents/GitHub/linux/include/generated/autoconf.h
