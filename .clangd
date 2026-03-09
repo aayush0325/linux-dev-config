@@ -1,0 +1,15 @@
+CompileFlags:
+  Remove:
+    - -mpreferred-stack-boundary=*
+    - -mindirect-branch=*
+    - -mindirect-branch-register
+    - -fno-allow-store-data-races
+    - -fconserve-stack
+    - -mrecord-mcount
+    - -mfunction-return=*
+    - -mindirect-branch-cs-prefix
+    - -fno-stack-clash-protection
+    - -mharden-sls=*
+    - -ftrivial-auto-var-init=*
+  Add:
+    - -ferror-limit=0
